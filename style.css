@@ -31,10 +31,13 @@ a{
 }
 /*Cuerpo*/
 
+/*Parte uno*/
 .container-one{
     display: flex;
     color: #F9FAF8;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 8px;
+
 }
 
 .item-one{
@@ -42,6 +45,8 @@ a{
     flex-direction: column;
     color: #E5E7EB;
     font-size: 18px;
+    align-items: flex-start;
+    
 }
 
 .hero-one{
@@ -50,7 +55,31 @@ a{
     color: #F9FAF8;
 }
 
-img{
+.item-two{
     width: 300px;
+    height: 200px;
+}
+
+/*Parte dos*/
+
+.earing{
+    width: 150px;
     height: 150px;
 }
+
+.container-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.info-two{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+/*Parte tres*/
