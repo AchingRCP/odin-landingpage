@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+}
+
+/* Cabecera */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+a{
+ text-decoration: none;
+ color: #F9FAF8;
+}
+
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Cuerpo*/
+
+.container-one{
+    display: flex;
+    color: #F9FAF8;
+    justify-content: space-around;
+}
+
+.item-one{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero-one{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
