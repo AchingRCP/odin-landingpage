@@ -90,3 +90,27 @@ a{
     text-align: center;
     gap: 16px;
 }
+
+/*Seccion Tres*/
+
+.container-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.text-one{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 200px 50px;
+}
+
+.text-two{
+    font-weight: bold;
+    text-align: right;
+    color: #1F2937;
+}
