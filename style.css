@@ -160,5 +160,11 @@ a{
     border-radius: 5px;
     padding: 8px 16px;
     border-style: double;
+}
+/*footer*/
 
-/*fooder*/
+.footer{
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
