@@ -1,21 +1,27 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1F2937;
 }
 
 header{
     display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color: white;
+    justify-content: space-evenly;
     font-weight: bold;
+    align-items: center;
 }
 
 ul, li{
     display: flex;
     list-style: none;
+    gap: 16px;
 }
 
 a{
     text-decoration: none;
     color: white;
+}
+
+.headerlogo{
+    color: white;
+    font-size: 24px;
 }
