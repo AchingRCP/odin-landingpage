@@ -114,3 +114,51 @@ a{
     text-align: right;
     color: #1F2937;
 }
+
+/*Seccion cuatro*/
+
+.container-four{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.box-one{
+    background-color: #3882F6;
+    display: flex;
+    gap: 50px;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    padding: 50px 150px;
+    text-align: left;
+}
+
+.inside{
+    text-align: left; 
+}
+.action-one{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.action-two{
+    font-size: 16px;
+    color: white;
+}
+
+.but-two{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border-style: double;
+
+/*fooder*/
